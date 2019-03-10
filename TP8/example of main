@@ -1,0 +1,37 @@
+nadia@NadiaPC:~/Lucas/Progra-I/TP8$ gcc main.c -o main -Wall
+
+nadia@NadiaPC:~/Lucas/Progra-I/TP8$ ./main arg1 arg2 -opc1 val3
+
+Arreglo pos. 0: arg1
+Arreglo pos. 1: arg2
+Arreglo pos. 2: -opc1
+Arreglo pos. 3: val3
+
+Clave pos. 0: -opc1
+
+Valores pos. 0: arg1
+Valores pos. 1: arg2
+Valores pos. 2: OPT.
+Valores pos. 3: val3
+
+nadia@NadiaPC:~/Lucas/Progra-I/TP8$ ./main val2 val3
+
+Arreglo pos. 0: val2
+Arreglo pos. 1: val3
+
+
+Valores pos. 0: val2
+Valores pos. 1: val3
+
+nadia@NadiaPC:~/Lucas/Progra-I/TP8$ ./main -op val34
+
+Arreglo pos. 0: -op
+Arreglo pos. 1: val34
+
+Clave pos. 0: -op
+
+Valores pos. 0: OPT.
+Valores pos. 1: val34
+
+nadia@NadiaPC:~/Lucas/Progra-I/TP8$ 
+
